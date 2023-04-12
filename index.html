@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catan</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Merriweather&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <header>
+    <a href="index.html" style="display: inline-flex" ;>
+      <img src="images/CatanLogo.png" alt="Catan Logo" />
+    </a>
+    <nav>
+      <ul>
+        <li><a href="info.html#history">History</a></li>
+        <li><a href="info.html#rules">Rules</a></li>
+        <li><a href="info.html#strategy">Strategy</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="https://www.catan.com">Official Website</a></li>
+      </ul>
+    </nav>
+    <img src="" alt="" />
+  </header>
+  <body
+    style="
+      background-image: url(images/CatanBackground.webp),
+        url(images/CatanBanner.jpg);
+      background-repeat: no-repeat, repeat;
+      background-size: 100% 900px, 100% 780px;
+    "
+  >
+    <h1>Catan</h1>
+    <div class="desc-container">
+      <img class="catan-box" src="images/CatanBox.jpg" alt="Catan Box" />
+      <p class="desc">
+        Catan is a popular strategy board game where players build settlements,
+        trade resources, and compete to be the first to reach 10 points
+      </p>
+    </div>
+    <figure class="home-vid">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/niTSTcZkriA"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </figure>
+    <figure class="threed-vid">
+      <figcaption class="figure-title">Find Out More About 3D Catan</figcaption>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/HozKaJXD9wg"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </figure>
+  </body>
+  <footer>
+    <h3 class="h3-news">Sign Up For Our Newsletter</h3>
+    <div class="form-container"></div>
+    <form action="https://httpbin.org/post" method="POST">
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="email@myseneca.ca"
+        autocomplete="off"
+        minlength="3"
+        tabindex="1"
+        required
+        title="email"
+      />
+      <input type="hidden" name="name" value="The Name" id="name" />
+      <button class="submit" type="submit">Join!</button>
+    </form>
+  </footer>
+</html>

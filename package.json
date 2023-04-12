@@ -1,0 +1,11 @@
+{
+  "name": "finalassessment",
+  "version": "1.0.0",
+  "description": "WEB222 Final Assessment",
+  "main": "data.js",
+  "scripts": {
+    "test": "npm run check"
+  },
+  "author": "Marcus Brown",
+  "license": "ISC"
+}

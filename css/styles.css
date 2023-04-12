@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+}
+html {
+  font-family: 'Merriweather', serif;
+}
+header {
+  background-color: rgb(143, 29, 39);
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-bottom: 4px solid orange;
+}
+body {
+  background-color: rgb(206, 113, 26);
+}
+nav {
+  font-family: 'Adobe Garamond Pro';
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+nav > ul {
+  display: flex;
+  align-items: row;
+  justify-content: center;
+
+  padding: 10px;
+  list-style: none;
+}
+nav > ul > li > a {
+  padding: 35px;
+  font-weight: 800;
+  font-size: 2rem;
+  color: rgb(235, 177, 112);
+  text-decoration: none;
+  font-family: 'Adobe Garamond Pro';
+}
+/* resize navbar when screen is <1200px */
+@media only screen and (max-width: 1200px) {
+  nav > ul > li > a {
+    font-size: 24px;
+    padding: 16px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  nav > ul > li > a {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+nav > ul > li > a:hover {
+  color: rgb(253, 132, 33);
+}
+h1 {
+  font-family: 'Adobe Garamond Pro';
+  color: rgb(121, 22, 30);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 7rem;
+}
+.desc-container {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  margin: 0px auto 100px auto;
+  text-align: center;
+}
+.catan-box {
+  height: 200px;
+  margin-left: 15%;
+}
+.desc {
+  margin: 15px 30% 0px 3%;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: rgb(79, 3, 3);
+}
+.home-vid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 300px;
+  margin-bottom: 50px;
+}
+.threed-vid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.tips-vid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.how-to-vid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.figure-title {
+  font-size: 2.3rem;
+  color: rgb(79, 3, 3);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.how-to-title {
+  font-size: 2.1rem;
+  color: black;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.tips-title {
+  font-size: 2.1rem;
+  color: black;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.h3-news {
+  font-family: 'Adobe Garamond Pro';
+  color: white;
+  font-size: 1.7rem;
+  margin-bottom: 15px;
+}
+h2 {
+  font-family: 'Adobe Garamond Pro';
+  color: rgb(121, 22, 30);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 6rem;
+}
+h3 {
+  font-family: 'Adobe Garamond Pro';
+  color: rgb(121, 22, 30);
+  font-size: 1.7rem;
+  font-weight: 900;
+}
+h4 {
+  font-family: 'Adobe Garamond Pro';
+  color: rgb(143, 29, 39);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+p {
+  color: black;
+  font-size: 0.9rem;
+  padding: 5px;
+  font-weight: 600;
+}
+li {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+footer {
+  height: 125px;
+  background-color: rgb(143, 29, 39);
+  border-top: 4px solid orange;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  padding: 5px;
+  font-size: 0.8rem;
+  margin-right: 20px;
+}
+.submit {
+  font-size: 1rem;
+  cursor: pointer;
+}
+.join {
+  font-size: 1rem;
+  cursor: pointer;
+}
+.history-container {
+  background-image: url(../images/CatanBackground.jpg);
+  background-size: 100% 780px;
+  margin-top: -20px;
+}
+.history-text-container {
+  margin: 15px 25% 50px 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(235, 178, 112, 0.781);
+  border-radius: 3%;
+  padding: 15px;
+}
+.rules-container {
+  background: url(../images/CatanBackground2.jpg);
+  background-size: 100% 1100px;
+  margin-top: -20px;
+}
+.rules-text-container {
+  margin: 15px 25% 50px 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(112, 178, 235, 0.781);
+  border-radius: 3%;
+  padding: 15px;
+}
+.strategy-container {
+  background: url(../images/CatanBackground3.jpg);
+  background-size: 100% 1200px;
+  margin-top: -20px;
+}
+.strategy-text-container {
+  margin: 15px 25% 50px 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(235, 178, 112, 0.781);
+  border-radius: 3%;
+  padding: 15px;
+}
+.cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin: 15px 225px;
+}
+.card {
+  background-position: center;
+  background-image: url(../images/catanCard.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 225px 300px;
+  width: 225px;
+  height: 300px;
+  overflow: hidden;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-text-container {
+  width: 175px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-text-container > p {
+  font-size: 1.1rem;
+}
+
+.details > h3 {
+  font-size: 1.4rem;
+  padding: 2px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rating-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.star-full {
+  margin-top: 10px;
+  height: 15px;
+  width: 15px;
+}
+.star-empty {
+  margin-top: 10px;
+  height: 15px;
+  width: 15px;
+}
+section {
+  background-color: rgb(255, 135, 30);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 4px solid orange;
+}
+section > h3 {
+  padding: 15px;
+  font-size: 2.5rem;
+  font-weight: 1000;
+}
+section > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form > label {
+  font-size: 1.2rem;
+}
+form > button {
+  margin: 10px;
+}
